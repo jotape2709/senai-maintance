@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SENAI Manutenção</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="header card">
+        <h1>SENAI • Sistema de Manutenção</h1>
+        <p>Ambiente SENAI para controle de manutenção industrial • padrão visual vermelho e branco</p>
+      </header>
+
+      <nav class="nav" id="nav">
+        <button data-page="dashboard">Dashboard</button>
+        <button data-page="machines">Máquinas</button>
+        <button data-page="new-order">Criar Ordem</button>
+        <button data-page="history">Histórico</button>
+      </nav>
+
+      <main id="content" class="card"></main>
+    </div>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "senai-ready",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "echo 'Use: npm run dev:backend and npm run dev:frontend em terminais separados'",
+    "dev:backend": "node backend/src/server.js",
+    "dev:frontend": "python3 -m http.server 5173 -d frontend",
+    "test": "node --test backend/tests/api.test.js frontend/tests/frontend.test.js"
+  },
+  "type": "module"
+}
